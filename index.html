@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>INDICE DAW DAM - CODINGIA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f2f4f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 1.5rem;
+            margin: 1rem;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+        }
+
+        .option {
+            background: #f7f7f7;
+            border-radius: 8px;
+            padding: 0.8rem 1rem;
+            margin-bottom: 0.8rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background 0.2s ease;
+        }
+
+        .option:hover {
+            background: #eaeaea;
+        }
+
+        .option input {
+            margin-right: 0.5rem;
+            transform: scale(1.2);
+        }
+
+        button,
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            transition: background 0.2s ease;
+            text-align: center;
+        }
+
+        button:hover,
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        #resultado {
+            margin-top: 1rem;
+            font-weight: bold;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        #resultado.correcto {
+            color: green;
+        }
+
+        #resultado.incorrecto {
+            color: red;
+        }
+
+        .estadisticas {
+            margin-top: 1.5rem;
+            font-size: 0.95rem;
+            color: #555;
+            text-align: center;
+        }
+
+        .question-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .question-item h3 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .question-item ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .question-item li {
+            padding: 0.3rem 0.5rem;
+            border-radius: 4px;
+        }
+
+        .question-item li.correct {
+            background: #d4edda;
+        }
+
+        /* verde suave */
+        .question-item li.hidden {
+            display: none;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <a class="btn" >
+            <i class="fas fa-desktop"></i> SISTEMAS INFORMÁTICOS
+        </a>
+
+        <a class="btn" href="https://sxrgio12.github.io/sxrgio12.LM.github.io/">
+            <i class="fas fa-code"></i> LENGUAJES DE MARCAS
+        </a>
+
+        <a class="btn" href="https://sxrgio12.github.io/sxrgio12.ED.github.io/">
+            <i class="fas fa-cogs"></i> ENTORNOS DE DESARROLLO
+        </a>
+
+        <a class="btn" >
+            <i class="fas fa-laptop-code"></i> PROGRAMACIÓN
+        </a>
+
+        <a class="btn" href="https://sxrgio12.github.io/sxrgio12.BD.github.io/">
+            <i class="fas fa-database"></i> BASES DE DATOS
+        </a>
+
+        <a class="btn" href="https://sxrgio12.github.io/sxrgio12.IE.github.io/">
+            <i class="fas fa-user-tie"></i> IPE
+        </a>
+
+        <a class="btn" href="https://sxrgio12.github.io/sxrgio12.IN.github.io/">
+            <i class="fas fa-language"></i> INGLÉS
+        </a>
